@@ -19,7 +19,7 @@ jobs:
           java-version: '8'
 
       - name: Unzip mod source
-        run: unzip -o PulseMenuMod.zip -d .
+        run: unzip -o "PulseMenuMod"*.zip -d .
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
